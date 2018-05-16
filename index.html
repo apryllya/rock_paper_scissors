@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock-paper-scissors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Let's play!</h1>
+    <div class="container">
+      <div class="userSide">
+        <h2>User's choice:</h2>
+        <img id="userRock" src="rock.png" alt="rock" title="ROCK">
+        <img id="userPaper" src="paper.png" alt="paper" title="PAPER">
+        <img id="userScissors" src="scissors.png" alt="scissors" title="SCISSORS">
+        <h3 id="usersChoice"></h3>
+      </div>
+      <div class="computerSide">
+        <h2>Computer's choice</h2>
+        <img src="rock.png" alt="rock" title="ROCK">
+        <img src="paper.png" alt="paper" title="PAPER">
+        <img src="scissors.png" alt="scissors" title="SCISSORS">
+        <h3 id="computersChoice"></h3>
+      </div>
+    </div>
+    <div class="btnContainer">
+      <p id="pSelect">Select your choice!</p>
+      <button id="playBtn" type="button" name="button" disabled>PLAY</button>
+    </div>
+    <h2>Result:</h2>
+    <p id="result"></p>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
